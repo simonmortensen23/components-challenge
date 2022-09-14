@@ -9,6 +9,10 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 import NavBarForm from './components/NavBarForm';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
+import Content from './components/Content';
 
 
 
@@ -17,6 +21,8 @@ function App() {
     <div className="App">
       {/* Add your components here */}
       <NavBarForm />
+      <Sidebar />
+      <Content />
       {/* <NavBarSimple />
       <StatefulGreeting />
       <MethodsAsPropsParent /> */}
@@ -25,7 +31,10 @@ function App() {
       <ConditionalRenderingFunctional connected={false}/> */}
       {/* <EventsFunctional />
       <EventsClass /> */}
-      {/* <Sidebar /> */}
+      
+      {/* <LifeCyclesCDM /> */}
+      {/* <LifeCyclesCDU /> */}
+      {/* <LifeCyclesCWU /> */}
     </div>
   );
 }
