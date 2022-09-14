@@ -13,6 +13,8 @@ import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import Content from './components/Content';
+import ControlledForm from './components/ControlledForm';
+import { UncontrolledForm } from './components/UncontrolledForm';
 
 
 
@@ -22,6 +24,8 @@ function App() {
       {/* Add your components here */}
       <NavBarForm />
       <Sidebar />
+      {/* <UncontrolledForm /> */}
+      {/* <ControlledForm /> */}
       <Content />
       {/* <NavBarSimple />
       <StatefulGreeting />
