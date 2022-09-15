@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import css from "./css/Content.module.css";
-import {savedPosts} from "../posts.json";
 import PostItem from "./PostItem";
 import Loader from "./Loader";
 import axios from 'axios'

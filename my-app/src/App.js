@@ -14,6 +14,7 @@ import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
 import ContentHooks from './components/ContentHooks';
 import ControlledForm from './components/ControlledForm';
+import ContentAPIHooks from './components/ContentAPIHooks'
 import { UncontrolledForm } from './components/UncontrolledForm';
 
 
@@ -26,7 +27,7 @@ function App() {
       <Sidebar />
       {/* <UncontrolledForm /> */}
       {/* <ControlledForm /> */}
-      <ContentHooks />
+      <ContentAPIHooks />
       {/* <NavBarSimple />
       <StatefulGreeting />
       <MethodsAsPropsParent /> */}

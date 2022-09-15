@@ -6,7 +6,7 @@ function PostItem(props) {
     return (
         props.savedPosts.map(post => {
             // Extra task destructuring 
-            const {id, type, webformatURL, tags} = post
+            const {id, type, user, webformatURL, tags} = post
             return <div className={css.SearchItem} key={id}>
                 <p>{type}</p>
                 <p>{user}</p>
