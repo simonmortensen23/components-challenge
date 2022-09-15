@@ -12,7 +12,7 @@ import NavBarForm from './components/NavBarForm';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from './components/LifeCyclesCWU';
-import Content from './components/Content';
+import ContentHooks from './components/ContentHooks';
 import ControlledForm from './components/ControlledForm';
 import { UncontrolledForm } from './components/UncontrolledForm';
 
@@ -26,7 +26,7 @@ function App() {
       <Sidebar />
       {/* <UncontrolledForm /> */}
       {/* <ControlledForm /> */}
-      <Content />
+      <ContentHooks />
       {/* <NavBarSimple />
       <StatefulGreeting />
       <MethodsAsPropsParent /> */}
